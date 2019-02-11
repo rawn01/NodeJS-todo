@@ -1,0 +1,67 @@
+body {
+  background-color: #77ABD2;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  font-size: 300%;
+}
+
+#todo {
+  position: relative;
+  top: 20px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #191C23;
+}
+
+#addItem {
+  width: 70%;
+  padding: 15px;
+  float: left;
+  font-size: 15px;
+}
+
+#addItem::placeholder {
+  font-size: 110%;
+}
+
+#button {
+  width: 20%;
+  height: 50px;
+  float: left;
+  font-size: 140%;
+  box-sizing: border-box;
+  border: 0;
+}
+
+
+#items {
+  clear: both;
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+}
+
+#todo li {
+  width: 73%;
+  display: block;
+  font-size: 125%;
+  padding: 20px;
+  font-family: arial;
+  cursor: pointer;
+  box-sizing: border-box;
+  color: #989898;
+}
+
+#todo li:hover {
+  text-decoration: line-through;
+  background-color: #2F353E;
+}
